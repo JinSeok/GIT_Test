@@ -1,0 +1,43 @@
+From 7e4fda49f3d0a334cabea623b6745981a9d5c197 Fri, 19 Aug 2011 09:43:26 +0900
+From: 허진석 <hjs0823@gmail.com>
+Date: Fri, 19 Aug 2011 09:36:34 +0900
+Subject: [PATCH] 주석 수정
+
+diff --git a/org.eclipse.example.calc/src/org/eclipse/example/calc/Operation.java b/org.eclipse.example.calc/src/org/eclipse/example/calc/Operation.java
+index 68cb046..66ff2de 100644
+--- a/org.eclipse.example.calc/src/org/eclipse/example/calc/Operation.java
++++ b/org.eclipse.example.calc/src/org/eclipse/example/calc/Operation.java
+@@ -1,16 +1,17 @@
+-/*******************************************************************************
+- * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
+- *
+- * All rights reserved. This program and the accompanying materials
+- * are made available under the terms of the Eclipse Public License v1.0
+- * which accompanies this distribution, and is available at
+- * http://www.eclipse.org/legal/epl-v10.html
+- *******************************************************************************/
+-package org.eclipse.example.calc;
+-
+-public interface Operation {
+-	/**
+-	 * @return name of the operation
+-	 */
+-	public String getName();
+-}
++/*******************************************************************************
++ * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
++ *
++ * All rights reserved. This program and the accompanying materials
++ * are made available under the terms of the Eclipse Public License v1.0
++ * which accompanies this distribution, and is available at
++ * http://www.eclipse.org/legal/epl-v10.html
++ *******************************************************************************/
++package org.eclipse.example.calc;
++
++public interface Operation {
++	/**
++	 * 
++	 * @return name of the operation
++	 */
++	public String getName();
++}
