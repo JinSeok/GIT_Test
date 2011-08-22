@@ -49,6 +49,8 @@ public class TestProject {
 	/**
 	 * @throws CoreException
 	 *             If project already exists
+	 *
+	 *
 	 */
 	public TestProject() throws CoreException {
 		this(false);
