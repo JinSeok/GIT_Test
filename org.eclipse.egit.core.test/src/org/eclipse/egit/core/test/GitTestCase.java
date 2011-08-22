@@ -39,6 +39,7 @@ public abstract class GitTestCase {
 	public void setUp() throws Exception {
 		// ensure there are no shared Repository instances left
 		// when starting a new test
+		//
 		Activator.getDefault().getRepositoryCache().clear();
 		MockSystemReader mockSystemReader = new MockSystemReader();
 		SystemReader.setInstance(mockSystemReader);
