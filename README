@@ -1,4 +1,6 @@
-            == Eclipse GIT plugin ==
+
+
+== Eclipse GIT plugin ==
 
 This package is licensed under the EPL.  Please refer to the COPYING
 and LICENSE files for the complete licenses within each package.
@@ -151,4 +153,5 @@ C based implementation can be obtained from the GIT websites:
   http://git.or.cz/
   http://www.kernel.org/pub/software/scm/git/
   http://www.kernel.org/pub/software/scm/git/docs/
+
 
